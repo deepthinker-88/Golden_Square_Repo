@@ -4,6 +4,7 @@ class Counter:
 
     def add(self,num):
         self.count +=num
+        return self.count
 
 
     def report(self):
